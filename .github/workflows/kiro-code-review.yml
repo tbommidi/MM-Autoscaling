@@ -1,8 +1,6 @@
 name: Kiro Code Review
 
 on:
-      pull:
-          branches: [ main ]
     push:
         branches: [ main ]
 
