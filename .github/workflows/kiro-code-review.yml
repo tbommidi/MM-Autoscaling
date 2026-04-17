@@ -1,9 +1,8 @@
 name: Kiro Code Review
 
 on:
-      pull_request:
-      branches: [ main ]
-  workflow_dispatch:
+      pull:
+          branches: [ main ]
     push:
         branches: [ main ]
 
